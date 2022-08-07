@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;600;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family:'IBM Plex Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    height: 100%;
+}
+
+body{
+    background: url("../assets/bg-main-desktop.png");
+    background-size: 100%;
+    height: 100%;
+}
+
+.pattern_right img{
+    position: absolute;
+    right: 0;
+    top: 0;
+    max-width: 16%;
+}
+
+header img{
+    width: 12%;
+}
+
+.heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding:2rem 4rem 0rem 4rem;
+}
+
+.heading .title{
+    font-size: 3em;
+    margin-bottom: 0.1em;
+}
+
+.heading .main_p{
+    font-size: 1em;
+}
+
+.container {
+    max-width: 75rem;
+    margin: 8rem auto;
+    height: 600px;
+    background: hsl(244,23%,12%);
+    padding: 0 4rem;
+    position: relative;
+    border-radius: 5px;
+    background-image: url('../starter-code/assets/bg-pattern-2.svg');
+    background-repeat: no-repeat;
+    background-position: center 10%;
+    background-size: 200px;
+    border-radius: 5%;
+    transition: background-position 1s ease-in-out;
+  }
+
+  .container > img {
+    max-width: 300px;
+    position: absolute;
+    top: -100px;
+  }
+
+  .premium{
+    background: hsl(11,94%,65%);
+    color: white;
+    font-family: sans-serif;
+    max-width: 300px;
+    position: absolute;
+    padding: 20px;
+    bottom: -50px;
+    right: 30px;
+    border-radius: 5px;
+  }
+
+.premium{
+    background-color: hsl(11,94%,65%);
+}
+
+footer{
+    margin-top: 200px;
+    display: grid;
+    grid-template-columns: 30% 20% 50%;
+    grid-auto-rows: 125px;
+}
+.footer_img{
+    margin-left: 163px;
+}
+.social_media{
+    justify-self: end;
+}
+
+/* .footer_img{
+    float: left ;
+}
+.footer_p{
+margin-left: 400px;
+width: 30%;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 80px;
+}
+.social-media{
+    
+} */
